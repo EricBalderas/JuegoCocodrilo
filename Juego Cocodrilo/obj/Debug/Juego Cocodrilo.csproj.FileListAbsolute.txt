@@ -1,0 +1,20 @@
+D:\JAVISKILLS\POO\Juego Cocodrilo\Juego Cocodrilo\bin\Debug\Juego Cocodrilo.exe.config
+D:\JAVISKILLS\POO\Juego Cocodrilo\Juego Cocodrilo\bin\Debug\Juego Cocodrilo.exe
+D:\JAVISKILLS\POO\Juego Cocodrilo\Juego Cocodrilo\bin\Debug\Juego Cocodrilo.pdb
+D:\JAVISKILLS\POO\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego Cocodrilo.csproj.AssemblyReference.cache
+D:\JAVISKILLS\POO\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego_Cocodrilo.Form1.resources
+D:\JAVISKILLS\POO\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego_Cocodrilo.Properties.Resources.resources
+D:\JAVISKILLS\POO\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego Cocodrilo.csproj.GenerateResource.cache
+D:\JAVISKILLS\POO\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego Cocodrilo.csproj.CoreCompileInputs.cache
+D:\JAVISKILLS\POO\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego Cocodrilo.exe
+D:\JAVISKILLS\POO\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego Cocodrilo.pdb
+D:\Programacion\C# curso\Juego Cocodrilo\Juego Cocodrilo\bin\Debug\Juego Cocodrilo.exe.config
+D:\Programacion\C# curso\Juego Cocodrilo\Juego Cocodrilo\bin\Debug\Juego Cocodrilo.exe
+D:\Programacion\C# curso\Juego Cocodrilo\Juego Cocodrilo\bin\Debug\Juego Cocodrilo.pdb
+D:\Programacion\C# curso\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego Cocodrilo.csproj.AssemblyReference.cache
+D:\Programacion\C# curso\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego_Cocodrilo.Form1.resources
+D:\Programacion\C# curso\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego_Cocodrilo.Properties.Resources.resources
+D:\Programacion\C# curso\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego Cocodrilo.csproj.GenerateResource.cache
+D:\Programacion\C# curso\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego Cocodrilo.csproj.CoreCompileInputs.cache
+D:\Programacion\C# curso\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego Cocodrilo.exe
+D:\Programacion\C# curso\Juego Cocodrilo\Juego Cocodrilo\obj\Debug\Juego Cocodrilo.pdb
