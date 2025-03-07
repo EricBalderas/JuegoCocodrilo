@@ -23,7 +23,7 @@ namespace Juego_Cocodrilo
         {
             if (numeroBoton != botonPeligroso)
             {
-                MessageBox.Show("!Estas a salvo! Intentalo de nuevo.", "Cocodrilo Dentista",
+                MessageBox.Show($"!Estas a salvo! ", "Cocodrilo Dentista",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 boton.BackColor = Color.Green;
                 boton.Enabled = false;
@@ -33,6 +33,7 @@ namespace Juego_Cocodrilo
                 MessageBox.Show("Haz sido eliminado!", "Cocodrilo Dentista",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 boton.BackColor = Color.Red;
+                boton.Enabled = false;
             }
         }
     }

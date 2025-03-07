@@ -37,6 +37,12 @@
             this.btnDiente7 = new System.Windows.Forms.Button();
             this.lblTitulo = new System.Windows.Forms.Label();
             this.picImagen = new System.Windows.Forms.PictureBox();
+            this.lblJugador3 = new System.Windows.Forms.Label();
+            this.lblJugador2 = new System.Windows.Forms.Label();
+            this.lblJugador1 = new System.Windows.Forms.Label();
+            this.btnJugadores = new System.Windows.Forms.Button();
+            this.lblNombreJugadores = new System.Windows.Forms.Label();
+            this.txtNombreJugadores = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.picImagen)).BeginInit();
             this.SuspendLayout();
             // 
@@ -136,11 +142,70 @@
             this.picImagen.TabIndex = 8;
             this.picImagen.TabStop = false;
             // 
+            // lblJugador3
+            // 
+            this.lblJugador3.AutoSize = true;
+            this.lblJugador3.Location = new System.Drawing.Point(57, 423);
+            this.lblJugador3.Name = "lblJugador3";
+            this.lblJugador3.Size = new System.Drawing.Size(54, 13);
+            this.lblJugador3.TabIndex = 20;
+            this.lblJugador3.Text = "Jugador 3";
+            // 
+            // lblJugador2
+            // 
+            this.lblJugador2.AutoSize = true;
+            this.lblJugador2.Location = new System.Drawing.Point(57, 395);
+            this.lblJugador2.Name = "lblJugador2";
+            this.lblJugador2.Size = new System.Drawing.Size(54, 13);
+            this.lblJugador2.TabIndex = 19;
+            this.lblJugador2.Text = "Jugador 2";
+            // 
+            // lblJugador1
+            // 
+            this.lblJugador1.AutoSize = true;
+            this.lblJugador1.Location = new System.Drawing.Point(57, 365);
+            this.lblJugador1.Name = "lblJugador1";
+            this.lblJugador1.Size = new System.Drawing.Size(54, 13);
+            this.lblJugador1.TabIndex = 18;
+            this.lblJugador1.Text = "Jugador 1";
+            // 
+            // btnJugadores
+            // 
+            this.btnJugadores.Location = new System.Drawing.Point(130, 554);
+            this.btnJugadores.Name = "btnJugadores";
+            this.btnJugadores.Size = new System.Drawing.Size(75, 23);
+            this.btnJugadores.TabIndex = 17;
+            this.btnJugadores.Text = "Agregar";
+            this.btnJugadores.UseVisualStyleBackColor = true;
+            this.btnJugadores.Click += new System.EventHandler(this.btnJugadores_Click);
+            // 
+            // lblNombreJugadores
+            // 
+            this.lblNombreJugadores.AutoSize = true;
+            this.lblNombreJugadores.Location = new System.Drawing.Point(78, 512);
+            this.lblNombreJugadores.Name = "lblNombreJugadores";
+            this.lblNombreJugadores.Size = new System.Drawing.Size(181, 13);
+            this.lblNombreJugadores.TabIndex = 16;
+            this.lblNombreJugadores.Text = "Ingresa los nombres de los jugadores";
+            // 
+            // txtNombreJugadores
+            // 
+            this.txtNombreJugadores.Location = new System.Drawing.Point(115, 528);
+            this.txtNombreJugadores.Name = "txtNombreJugadores";
+            this.txtNombreJugadores.Size = new System.Drawing.Size(100, 20);
+            this.txtNombreJugadores.TabIndex = 15;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1232, 618);
+            this.Controls.Add(this.lblJugador3);
+            this.Controls.Add(this.lblJugador2);
+            this.Controls.Add(this.lblJugador1);
+            this.Controls.Add(this.btnJugadores);
+            this.Controls.Add(this.lblNombreJugadores);
+            this.Controls.Add(this.txtNombreJugadores);
             this.Controls.Add(this.picImagen);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.btnDiente7);
@@ -170,6 +235,12 @@
         private System.Windows.Forms.Button btnDiente7;
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.PictureBox picImagen;
+        private System.Windows.Forms.Label lblJugador3;
+        private System.Windows.Forms.Label lblJugador2;
+        private System.Windows.Forms.Label lblJugador1;
+        private System.Windows.Forms.Button btnJugadores;
+        private System.Windows.Forms.Label lblNombreJugadores;
+        private System.Windows.Forms.TextBox txtNombreJugadores;
     }
 }
 

@@ -14,6 +14,9 @@ namespace Juego_Cocodrilo
     {
         private Random random = new Random();
         private int botonPeligroso;
+        Jugador Jugador1 = new Jugador();
+        Jugador Jugador2 = new Jugador();
+        Jugador Jugador3 = new Jugador();
 
         public Form1()
         {
@@ -25,9 +28,9 @@ namespace Juego_Cocodrilo
             // numero random que va del 1 al 7 que coicide con los tag de los botones
             botonPeligroso = random.Next(1, 8);
 
-            //// Imagen
-            //picImagen.Image = Image.FromFile(@"C:\Users\ericb\OneDrive\Imágenes\Descargas\crocodile-dentist.jpg");
-            //picImagen.SizeMode = PictureBoxSizeMode.StretchImage;
+            // Imagen
+            picImagen.Image = Image.FromFile(@"C:\Users\ericb\OneDrive\Imágenes\Descargas\crocodile-dentist.jpg");
+            picImagen.SizeMode = PictureBoxSizeMode.StretchImage;
         }
 
         private void btnDiente1_Click(object sender, EventArgs e)
@@ -77,6 +80,34 @@ namespace Juego_Cocodrilo
             int numeroBoton = int.Parse(btnDiente7.Tag.ToString());
             Diente diente = new Diente(btnDiente7, numeroBoton);
             diente.Comprobar(botonPeligroso);
+        }
+
+        private int jugadorActual = 1; // Variable para llevar el control del jugador actual
+
+        private void btnJugadores_Click(object sender, EventArgs e)
+        {
+
+            switch (jugadorActual)
+            {
+                case 1:
+                    Jugador1.NombreJugador = txtNombreJugadores.Text;
+                    lblJugador1.Text = Jugador1.NombreJugador;
+                    break;
+                case 2:
+                    Jugador2.NombreJugador = txtNombreJugadores.Text;
+                    lblJugador2.Text = Jugador2.NombreJugador;
+                    break;
+                case 3:
+                    Jugador3.NombreJugador = txtNombreJugadores.Text;
+                    lblJugador3.Text = Jugador3.NombreJugador;
+                    break;
+                default:
+                    MessageBox.Show("Ya se han registrado los tres jugadores.");
+                    return;
+            }
+
+            txtNombreJugadores.Clear();
+            jugadorActual++;
         }
     }
 }
